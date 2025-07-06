@@ -37,3 +37,27 @@ let myObj = {
 }
 
 console.log(typeof myFunction)
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive) , Heap(Non-primitive)
+
+let myYoutubeName ="Hiteshchoudharydotcom"
+
+let anotherName = myYoutubeName;
+anotherName="chaiaurCode"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email:"user@ggogle.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+//userTwo.email = "hitesh@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
