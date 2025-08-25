@@ -26,5 +26,20 @@
        document.querySelector(".language").appendChild(li)
     }
     addOptilanguage("goolang")
+
+    // Edit
+  const secondLanguage = document.querySelector("li:nth-child(2)")
+  //secondLanguage.innerHTML="Mojo"
+  const newLi=document.createElement("li")
+  newLi.textContent="Mojo"
+  secondLanguage.replaceWith(newLi)
+
+  //edit
+const firstLang=document.querySelector("li:first-child")
+firstLang.outerHTML='<li>typescript</li>'
+
+//remove
+const lastLang =document.querySelector("li:last-child")
+lastLang.remove()
 </script>
 </html>
